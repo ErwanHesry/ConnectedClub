@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Have a cocktail</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_map">MapActivity</string>
+    
+    <string name="title_activity_located_inside">LocatedInsideActivity</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="notInABar">To continue, please go inside a bar or a club shown on the map</string>
+    <string name="activity">ACTIVITY</string>
+    <string name="preOrder">PRE-ORDER</string>
+    <string name="profile">THE ESTABLISHMENT</string>
+    <string name="suggestions">SUGGESTIONS</string>
+    <string name="the">The</string>
+	<string name="at">at</string>
+	<string name="cocktails">COCKTAILS &amp; WINES</string>
+	<string name="wine">WINES</string>
+	<string name="bill">YOUR COCKTAILS</string>
+	<string name="element">cocktail</string>
+	<string name="elements">cocktails</string>
+	<string name="noElements">You have no element pre-ordered</string>
+	<string name="pay">Proceed to checkout</string>
+	<string name="billAndCheckout">YOUR COCKTAILS</string>
+	<string name="total">TOTAL</string>
+	<string name="preparation">in preparation</string>
+	<string name="payCard">Order and pay</string>
+	<string name="payCardSubtitle">Please pay your bill at the bar</string>
+	<string name="continuePreOrder">Continue pre-order</string>
+	<string name="continuePreOrderSubtitle">Add other cocktails</string>
+	<string name="deleted">deleted</string>
+	<string name="added">added to your list</string>
+	<string name="gettingClubs">SAVING THE BEST PLACES</string>
+	<string name="gettingCocktails">COCKTAILS ASSOCIATIONS</string>
+	<string name="finish">GOOD NIGHT</string>
+	<string name="monday">Monday</string>
+	<string name="tuesday">Tuesday</string>
+	<string name="wednesday">Wednesday</string>
+	<string name="thursday">Thursday</string>
+	<string name="friday">Friday</string>
+	<string name="saturday">Saturday</string>
+	<string name="sunday">Sunday</string>
+	<string name="closed">CLOSED</string>
+	<string name="barRestaurant">BARS &amp; RESTAURANTS</string>
+	<string name="overlayTitle">Before pre-order, please provide the date and the hour of the booking.</string>
+	<string name="overlayNoBooking">If you still do not have place a booking yet, please call </string>
+	<string name="call">Call</string>
+	<string name="lacarte">THE SELECTION</string>
+	<string name="nobooking">Please book to pre-order a cocktail.</string>
+	<string name="day">Day</string>
+	<string name="hour">Hour</string>
+	<color name="separator">#d7d7d7</color>
+	<string name="cancel">Cancel</string>
+	<string name="ok">Ok</string>
+	<string name="username">Your name</string>
+</resources>

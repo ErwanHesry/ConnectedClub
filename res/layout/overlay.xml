@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#DDe0e0e0"
+    android:id="@+id/overlayLinear"
+    >
+    
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0"
+        />
+    
+    <TextView 
+        android:id="@+id/overlayTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/overlayTitle"
+        android:textColor="#333333"
+        android:textSize="16sp"
+        android:gravity="center"
+        />
+    
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:textSize="20sp"
+    	android:textColor="#333333"
+    	android:background="#ffffff"
+    	android:hint="@string/username"
+    	android:inputType="textCapWords"
+        />
+    
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:src="@drawable/separator"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:alpha="0.1"
+        />
+    
+    <LinearLayout 
+        android:id="@+id/picker"
+        android:layout_width="match_parent"
+    	android:layout_height="50dp"
+    	android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+    	android:orientation="horizontal"
+        android:background="#ffffff"
+        >
+        
+        <TextView 
+            android:id="@+id/datePicker"
+            android:layout_width="0dip"
+            android:layout_height="50dp"
+            android:layout_weight="1.0"
+            android:textSize="20sp"
+        	android:textColor="#333333"
+        	android:text="@string/day"
+        	android:gravity="center"
+            />
+        
+        <TextView 
+            android:id="@+id/timePicker"
+            android:layout_width="0dip"
+            android:layout_height="50dp"
+            android:layout_weight="1.0"
+            android:textSize="20sp"
+        	android:textColor="#333333"
+        	android:text="@string/hour"
+        	android:gravity="center"
+            />
+        
+      </LinearLayout>
+    
+    <TextView 
+        android:id="@+id/overlayNoBooking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/overlayNoBooking"
+        android:textColor="#333333"
+        android:textSize="14sp"
+        android:gravity="center"
+        />
+    
+    <LinearLayout 
+        android:id="@+id/callButton"
+        android:layout_width="match_parent"
+    	android:layout_height="50dp"
+    	android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+    	android:orientation="horizontal"
+        android:background="#27ae60"
+        >
+        
+        <ImageView 
+	        android:layout_width="0dip"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1.0"
+	        />
+        
+        <ImageView
+            android:id="@+id/call_image" 
+            android:layout_width="50dp"
+	        android:layout_height="50dp"
+	        android:src="@drawable/ic_call_grey"
+            />
+        
+        <TextView 
+            android:id="@+id/call_button"
+            android:layout_width="0dip"
+            android:layout_height="50dp"
+            android:layout_weight="1.0"
+            android:textSize="20sp"
+        	android:textColor="#ffffff"
+        	android:text="@string/call"
+        	android:gravity="center"
+            />
+        
+        <ImageView 
+	        android:layout_width="0dip"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1.0"
+	        />
+        
+    </LinearLayout>
+    
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0"
+        />
+    
+    <LinearLayout 
+        android:id="@+id/cancelButton"
+        android:layout_width="match_parent"
+    	android:layout_height="50dp"
+    	android:orientation="horizontal"
+        android:background="#e74c3c"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+        
+        <ImageView 
+	        android:layout_width="0dip"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1.0"
+	        />
+        
+        <ImageView 
+            android:layout_width="50dp"
+	        android:layout_height="50dp"
+	        android:src="@drawable/ic_cancel_grey"
+            />
+        
+        <TextView 
+            android:id="@+id/cancel_button"
+            android:layout_width="0dip"
+            android:layout_height="50dp"
+            android:layout_weight="1.0"
+            android:textSize="20sp"
+        	android:textColor="#ffffff"
+        	android:text="@string/cancel"
+        	android:gravity="center"
+            />
+        
+        <ImageView 
+	        android:layout_width="0dip"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1.0"
+	        />
+        
+      </LinearLayout>
+     
+</LinearLayout>

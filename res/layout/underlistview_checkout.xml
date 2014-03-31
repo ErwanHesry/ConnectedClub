@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView 
+        android:id="@+id/underlistView_title"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:textColor="#999999"
+        android:paddingTop="3dp"
+        android:paddingLeft="4dp"
+        android:paddingBottom="2dp"
+        android:text="@string/total"
+        />
+    
+    <ImageView 
+        android:id="@+id/underlistView_line"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginBottom="1dp"
+        android:background="#e9d5ac"
+        />
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp">
+    
+	    <LinearLayout
+	        android:id="@+id/billLayout"
+		    android:layout_width="0dip"
+		    android:layout_height="60dp"
+		    android:layout_weight="1.0"
+		    android:gravity="center_vertical"
+		    android:orientation="vertical">
+	    
+		    <TextView 
+		        android:id="@+id/underlistView_elements"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="20sp"
+		        android:textColor="#000000"
+		        android:text="@string/noElements"
+		        android:layout_gravity="center"
+		        />
+		    
+		    <TextView 
+		        android:id="@+id/underlistView_total_number"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:textSize="13sp"
+		        android:textColor="#000000"
+		        android:text="@string/pay"
+		        android:layout_gravity="center"
+		        />
+	    
+	    </LinearLayout>
+	    
+	    <TextView 
+	        android:id="@+id/underlistView_total_price"
+	        android:layout_width="50dp"
+	        android:layout_height="match_parent"
+	        android:gravity="center"
+	        android:textSize="20sp"
+	        android:textColor="#222222"
+	        />
+	    
+	</LinearLayout>
+	
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#d7d7d7"
+        />
+    
+    <LinearLayout
+        android:id="@+id/pay"
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    android:orientation="horizontal" >
+    
+	    <RelativeLayout 
+	        android:layout_height="60dp" 
+	        android:layout_width="60dp"
+	        android:background="#d7d7d7"
+	        >
+		    <ImageView 
+		        android:id="@+id/pay_icon"
+		        android:layout_width="60dp"
+		        android:layout_height="60dp"
+		        android:background="@drawable/ic_credit_card"
+		        />
+	    </RelativeLayout>
+	    
+	    <LinearLayout 
+	        android:layout_width="0dip"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1.0"
+	        android:orientation="vertical"
+	        android:gravity="center_vertical"
+	        android:paddingLeft="10dp"
+	        >
+	        
+	        <TextView 
+	            android:id="@+id/payment_name"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:textSize="20sp"
+	            android:textColor="#222222"
+	            android:text="@string/payCard"
+	            />
+	        
+	        <TextView 
+	            android:id="@+id/payment_subtitle"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:textSize="10sp"
+	            android:textColor="#222222"
+	            android:text="@string/payCardSubtitle"
+	            />
+	        
+	    </LinearLayout>
+	
+	</LinearLayout>
+	
+    <LinearLayout
+        android:id="@+id/continue_layout"
+	    android:layout_width="match_parent"
+	    android:layout_height="60dp"
+	    android:orientation="horizontal" >
+    
+	    <RelativeLayout 
+	        android:layout_height="60dp" 
+	        android:layout_width="60dp"
+	        android:background="#d7d7d7"
+	        >
+		    <ImageView 
+		        android:id="@+id/continue_icon"
+		        android:layout_width="60dp"
+		        android:layout_height="60dp"
+		        android:background="@drawable/ic_plate"
+		        />
+	    </RelativeLayout>
+	    
+	    <LinearLayout 
+	        android:layout_width="0dip"
+	        android:layout_height="match_parent"
+	        android:layout_weight="1.0"
+	        android:orientation="vertical"
+	        android:gravity="center_vertical"
+	        android:paddingLeft="10dp"
+	        >
+	        
+	        <TextView 
+	            android:id="@+id/continue_name"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:textSize="20sp"
+	            android:textColor="#222222"
+	            android:text="@string/continuePreOrder"
+	            />
+	        
+	        <TextView 
+	            android:id="@+id/continue_subtitle"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:textSize="10sp"
+	            android:textColor="#222222"
+	            android:text="@string/continuePreOrderSubtitle"
+	            />
+	        
+	    </LinearLayout>
+	
+	</LinearLayout>
+    
+
+</LinearLayout>

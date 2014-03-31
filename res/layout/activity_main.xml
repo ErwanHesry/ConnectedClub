@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/blured_background"
+    tools:context=".MainActivity"
+    >
+    
+    <ImageView 
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0"
+        />
+    
+    <ImageView 
+        android:id="@+id/cc_logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/connectedclub_logo"
+        />
+    
+    <TextView 
+        android:id="@+id/textActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#e0e0e0"
+        android:textSize="12sp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        />
+    <!-- 
+    <ImageView 
+        android:id="@+id/cc_color_bar"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:src="@drawable/color_bar"
+        />
+      --> 
+      
+      <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="15dp"
+    	android:orientation="horizontal"
+        > 
+      
+	      <TextView 
+	          android:id="@+id/Twitter"
+	          android:layout_width="0dip"
+	          android:layout_height="50dp"
+	          android:layout_weight="1.0"
+	          android:background="#4099FF"
+	          android:textSize="20dp"
+	      	  android:textColor="#ffffff"
+	      	  android:text="Sign-in with Twitter"
+	      	  android:gravity="center"
+	          />
+	      
+	      <TextView
+	          android:id="@+id/TwitterCancel"
+	          android:layout_width="50dp"
+		      android:layout_height="50dp"
+		      android:textSize="20dp"
+	      	  android:textColor="#ffffff"
+			  android:text="X"
+			  android:background="#e74c3c" 
+			  android:gravity="center"
+	          />
+      
+      </LinearLayout>
+
+</LinearLayout>

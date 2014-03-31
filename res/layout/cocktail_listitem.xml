@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp	"
+    android:orientation="horizontal" >
+    
+    <RelativeLayout 
+        android:layout_height="50dp" 
+        android:layout_width="50dp"
+        android:background="#d7d7d7"
+        >
+	    <ImageView 
+	        android:id="@+id/cocktail_icon"
+	        android:layout_width="50dp"
+	        android:layout_height="50dp"
+	        />
+    </RelativeLayout>
+    
+    <LinearLayout 
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        >
+        
+        <TextView 
+            android:id="@+id/cocktail_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#222222"
+            />
+        
+        <TextView 
+            android:id="@+id/cocktail_composition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:textColor="#222222"
+            />
+        
+    </LinearLayout>
+    
+    <TextView 
+        android:id="@+id/cocktail_price"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#222222"
+        />
+
+</LinearLayout>
